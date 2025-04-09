@@ -19,16 +19,16 @@ Este proyecto realiza un análisis multifacético de los datos de crímenes repo
 
 **Mapa de Densidad Kernel (KDE) - Resultado Principal:**
 *(Muestra dónde se aglomeran los puntos de crimen)*
-![Mapa de Densidad Kernel de Crímenes en Birmingham (2023)](KDE_Birmingham_Final.png)
+![Mapa de Densidad Kernel de Crímenes en Birmingham (2023)](images/KDE_Birmingham_Final.png)
 
 **Comparación de Hotspots por Tipo de Crimen (Coropletas LSOA):**
 *(Muestra cómo varían los patrones según el tipo de delito)*
-![Comparación de Hotspots por Tipo de Crimen en Birmingham (2023)](birmingham_crime_types_comparison.png)
+![Comparación de Hotspots por Tipo de Crimen en Birmingham (2023)](images/birmingham_crime_types_comparison.png)
 
 **Resultados del Análisis de Proximidad a POI:**
 *(Resumen cuantitativo de la influencia de POIs)*
-![Comparación de Porcentaje de Crímenes Cerca de POIs](poi_comparison_percentage.png)
-![Comparación de Tipos de Crimen Cerca de POIs](poi_comparison_typedesglose_es.png)
+![Comparación de Porcentaje de Crímenes Cerca de POIs](images/poi_comparison_percentage.png)
+![Comparación de Tipos de Crimen Cerca de POIs](images/poi_comparison_typedesglose_es.png)
 
 ## Tecnologías Utilizadas
 
