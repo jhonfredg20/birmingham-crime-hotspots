@@ -1,0 +1,8 @@
+pandas
+geopandas
+matplotlib
+mapclassify
+osmnx
+numpy
+# Nota: QGIS v3.40.3 (o similar) es necesario para el análisis KDE como se describe.
+# Su instalación es independiente de este archivo de requisitos de Python.
