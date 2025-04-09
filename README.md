@@ -16,14 +16,19 @@ Este proyecto realiza un análisis multifacético de los datos de crímenes repo
 *   **Análisis de Proximidad a POI:** Cuantificación de la concentración de crímenes dentro de un buffer de 100 metros alrededor de Puntos de Interés clave (Bares/Pubs, Comisarías de Policía, Estaciones de Transporte) descargados desde OpenStreetMap vía `osmnx`.
 
 ## Visualizaciones Clave
+**Distribución del Crimen Total por LSOA (Coropletas):**
+*(Muestra la concentración general del crimen agregado por áreas LSOA, usando clasificación Natural Breaks)*
+![Mapa Coropletas del Crimen Total por LSOA](birmingham_lsoa_hotspots_map.png)
+
+**Comparación de Hotspots por Tipo de Crimen (Coropletas LSOA):**
+*(Muestra cómo varían los patrones según el tipo de delito)*
+![Comparación de Hotspots por Tipo de Crimen en Birmingham (2023)](birmingham_crime_types_comparison.png)
 
 **Mapa de Densidad Kernel (KDE) - Resultado Principal:**
 *(Muestra dónde se aglomeran los puntos de crimen)*
 ![Mapa de Densidad Kernel de Crímenes en Birmingham (2023)](KDE_Birmingham_Final.png)
 
-**Comparación de Hotspots por Tipo de Crimen (Coropletas LSOA):**
-*(Muestra cómo varían los patrones según el tipo de delito)*
-![Comparación de Hotspots por Tipo de Crimen en Birmingham (2023)](birmingham_crime_types_comparison.png)
+
 
 **Resultados del Análisis de Proximidad a POI:**
 *(Resumen cuantitativo de la influencia de POIs)*
@@ -89,7 +94,7 @@ Este proyecto realiza un análisis multifacético de los datos de crímenes repo
     *   Colocar los archivos descargados en la ubicación esperada (ej. carpeta definida por `base_path` si se usa Google Drive) o ajustar las rutas en el notebook.
 3.  **Librerías Python:** Instalar las dependencias: `pip install -r requirements.txt`.
 4.  **Ejecutar el Notebook:** Abrir el archivo `.ipynb` en Colab/Jupyter y ejecutar las celdas secuencialmente.
-5.  **Paso de QGIS (KDE):** El notebook genera y exporta los datos de puntos necesarios (`birmingham_crime_points_proj.gpkg`). Este archivo debe cargarse en QGIS para realizar el análisis KDE y la composición cartográfica como se describe en la Sección 8. La imagen resultante debe guardarse e idealmente colocarse en la carpeta `images/`.
+5.  **Paso de QGIS (KDE):** El notebook genera y exporta los datos de puntos necesarios (`birmingham_crime_points_proj.gpkg`). Este archivo debe cargarse en QGIS para realizar el análisis KDE y la composición cartográfica como se describe en la Sección 8.
 
 ## Trabajo Futuro
 
