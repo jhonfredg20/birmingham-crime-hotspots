@@ -77,8 +77,7 @@ Este proyecto realiza un análisis multifacético de los datos de crímenes repo
 *   `README.md`: Esta documentación.
 *   `Analisis_Espacial_Crimen_BHAM_2023_Coropletas_Kernel_POI.ipynb`: Notebook de Jupyter/Colab con todo el código Python, análisis y documentación detallada.
 *   `requirements.txt`: Lista de dependencias de Python necesarias.
-*   `images/`: Carpeta para guardar las imágenes exportadas (mapas, gráficos) usadas en el README y el notebook.
-*   `data/` : Carpeta con los archivos de datos utilizados en el estudio.
+*   `Imagenes`: Todos los graficos generados tanto en Google Colab como en QGis.
 
 ## Configuración y Uso
 
